@@ -1,6 +1,6 @@
 # PayWeb_OpenCart
 
-## Payfast OpenCart Plugin v3.2.0 for OpenCart v4.1.0.3
+## Paygate OpenCart Plugin v3.2.0 for OpenCart v4.1.0.3
 
 This is the Paygate plugin for OpenCart. Please feel free to contact the Payfast support team at
 support@payfast.help should you require any assistance.
