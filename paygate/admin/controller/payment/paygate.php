@@ -175,6 +175,7 @@ QUERY;
         $data['payment_paygate_sort_order']                = $this->checkPostValue('payment_paygate_sort_order');
         $data['payment_paygate_merchant_id']               = $this->checkPostValue('payment_paygate_merchant_id');
         $data['payment_paygate_merchant_key']              = $this->checkPostValue('payment_paygate_merchant_key');
+        $data['payment_paygate_testmode']              	   = $this->checkPostValue('payment_paygate_testmode');
         $data['payment_paygate_notifyredirect']            = $this->checkPostValue('payment_paygate_notifyredirect');
         $data['payment_paygate_creditcardmethod']          = $this->checkPostValue('payment_paygate_creditcardmethod');
         $data['payment_paygate_banktransfermethod']        = $this->checkPostValue(
