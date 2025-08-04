@@ -1,6 +1,6 @@
 # PayWeb_OpenCart
 
-## Payfast OpenCart Plugin v3.2.0 for OpenCart v4.1.0.3
+## Paygate OpenCart Plugin v3.3.0 for OpenCart v4.1.0.3
 
 This is the Paygate plugin for OpenCart. Please feel free to contact the Payfast support team at
 support@payfast.help should you require any assistance.
@@ -9,9 +9,9 @@ support@payfast.help should you require any assistance.
 
 1. **Download the Latest Release**
     - Visit the [releases page](https://github.com/Paygate/PayWeb_OpenCart/releases) and
-      download [paygate.ocmod.zip](https://github.com/Paygate/PayWeb_OpenCart/releases/download/v3.2.0/paygate.ocmod.zip).
+      download [paygate.ocmod.zip](https://github.com/Paygate/PayWeb_OpenCart/releases/download/v3.3.0/paygate.ocmod.zip).
 
-2. **Install the Plugina**
+2. **Install the Plugin**
     - Access your OpenCart admin area.
     - Navigate to **"Extensions" -> "Installer"**.
     - Under **"Upload File"**, click the **"Upload"** button.

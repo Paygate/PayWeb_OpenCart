@@ -70,13 +70,8 @@
                                        for="input-testmode">{{ entry_testmode }}</label>
                                 <div class="col-sm-9">
                                     <select name="payment_paygate_testmode" id="input-testmode" class="form-control">
-                                        {% if payment_paygate_testmode %}
-                                            <option value="test" selected="selected">{{ text_testmode }}</option>
-                                            <option value="live">{{ text_livemode }}</option>
-                                        {% else %}
-                                            <option value="test">{{ text_testmode }}</option>
-                                            <option value="live" selected="selected">{{ text_livemode }}</option>
-                                        {% endif %}
+                                    <option value="test" {{ payment_paygate_testmode == 'test' ? 'selected' : '' }}>{{ text_testmode }}</option>
+                                    <option value="live" {{ payment_paygate_testmode == 'live' ? 'selected' : '' }}>{{ text_livemode }}</option>
                                     </select>
                                 </div>
                             </div>

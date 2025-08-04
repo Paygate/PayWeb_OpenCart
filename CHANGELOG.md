@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.3.0](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.3.0)
+
+### Fixed
+
+- Fixed missing template error for `paygate_redirect.twig`.
+- Updated deprecated method `addOrderHistory` to `addHistory`.
+- Fixed admin settings bug where `payment_paygate_testmode` was not persisting correctly.
+
+### Improved
+
+- Updated for PHP 8.2 compatibility and platform improvements.
+- Improved code quality and updated Payfast Common Library to v1.4.0.
+
 ## [3.2.0](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.2.0)
 
 ### Added
@@ -131,4 +144,4 @@
 
 ### Initial Release
 
-- First version of the plugin.  
+- First version of the plugin.
