@@ -9,12 +9,12 @@
  */
 
 // Heading
-$_['heading_title'] = 'Paygate';
+$_['heading_title'] = 'Payfast Gateway';
 
 // Text
 $_['text_payment']   = 'Payment';
-$_['text_success']   = 'You have successfully configured the Paygate payment module.';
-$_['text_edit']      = 'Edit Paygate';
+$_['text_success']   = 'You have successfully configured the Payfast Gateway payment module.';
+$_['text_edit']      = 'Edit Payfast Gateway';
 $_['text_extension'] = 'Extensions';
 $_['text_notify']    = 'Disabled';
 $_['text_redirect']  = 'Enabled';
@@ -29,10 +29,10 @@ $_['entry_order_status']       = 'Initial';
 $_['entry_geo_zone']           = 'Geo Zone';
 $_['entry_status']             = 'Status';
 $_['entry_sort_order']         = 'Sort Order';
-$_['text_paygate']             = '<a onclick="window.open(\'https://www.paygate.co.za/\');">
-<img src="/extension/paygate/admin/view/image/payment/paygate.png"
-alt="Paygate" title="Paygate" style="border: 1px solid #EEEEEE;" /></a>';
-$_['entry_merchant_id']        = 'Paygate ID';
+$_['text_paygate']             = '<a onclick="window.open(\'https://payfast.io/solutions/gateway/\');">
+<img src="/extension/paygate/admin/view/image/payment/payfast-logo.svg"
+alt="Payfast Gateway" title="Payfast Gateway" height="35px" width="auto"/></a>';
+$_['entry_merchant_id']        = 'Terminal ID';
 $_['entry_merchant_key']       = 'Encryption Key';
 $_['entry_success_status']     = 'Successful';
 $_['entry_failed_status']      = 'Failed';
@@ -60,4 +60,4 @@ $_['tab_pay_methods']  = 'Payment Types';
 $_['help_total'] = 'The checkout total the order must reach before this payment method becomes active.';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify the Paygate payment method!';
+$_['error_permission'] = 'Warning: You do not have permission to modify the Payfast Gateway payment method!';

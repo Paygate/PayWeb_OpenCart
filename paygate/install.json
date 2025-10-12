@@ -1,7 +1,7 @@
 {
-  "name": "Paygate",
+  "name": "Payfast Gateway",
   "code": "paygate",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "author": "App Inlet",
   "link": "https://appinlet.com"
 }

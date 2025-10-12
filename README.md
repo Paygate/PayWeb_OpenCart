@@ -1,8 +1,8 @@
-# PayWeb_OpenCart
+# opencart-gateway
 
-## Paygate OpenCart Plugin v3.3.0 for OpenCart v4.1.0.3
+## Payfast Gateway OpenCart Plugin v3.4.0 for OpenCart v4.1.0.3
 
-This is the Paygate plugin for OpenCart. Please feel free to contact the Payfast support team at
+This is the Payfast Gateway plugin for OpenCart. Please feel free to contact the Payfast support team at
 support@payfast.help should you require any assistance.
 
 ## Installation
@@ -19,11 +19,11 @@ support@payfast.help should you require any assistance.
     - Click the **"Install"** button (green plus sign).
     - Navigate to **"Extensions" -> "Extensions"**.
     - Under the **"Choose the extension type"** section, select **"Payments"** from the dropdown.
-    - Locate the Paygate plugin in the list and click the **"Install"** button (green plus sign).
+    - Locate the Payfast Gateway plugin in the list and click the **"Install"** button (green plus sign).
 
 3. **Configure the Plugin**
-    - Click the **"Edit"** button (blue pencil) next to the Paygate plugin.
-    - Input your **Paygate ID** and **encryption key** as supplied by Paygate.
+    - Click the **"Edit"** button (blue pencil) next to the Payfast Gateway plugin.
+    - Input your **Terminal ID** and **encryption key** as supplied by Paygate.
     - Update the **"Status"** to **"Enabled"**.
     - Configure your desired order statuses on the **"Order Status"** tab.
     - Click the **"Save"** button near the top.

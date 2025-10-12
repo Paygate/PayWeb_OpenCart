@@ -51,7 +51,7 @@ class PaygateTransaction extends Controller
 		$lastName = !$order_info['payment_lastname']
 			? $order_info['shipping_lastname'] : $order_info['payment_lastname'];
 		$userField2 = "$firstName $lastName";
-		$userField3 = 'opencart-v3.3.0';
+		$userField3 = 'opencart-v3.4.0';
 
 		$initiateData = [
 			'REFERENCE' => $reference,
@@ -114,7 +114,7 @@ QUERY;
 	{
 		if ($this->session->data['payment_method']['code'] == self::PAYGATE_CODE) {
 			$this->load->model(self::CHECKOUT_MODEL);
-			$comment = 'Redirected to Paygate';
+			$comment = 'Redirected to Payfast';
 			$this->model_checkout_order->addHistory(
 				$this->session->data['order_id'],
 				$this->config->get('payment_paygate_order_status_id'),
