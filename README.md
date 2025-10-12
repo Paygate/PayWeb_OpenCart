@@ -1,6 +1,6 @@
 # opencart-gateway
 
-## Payfast Gateway OpenCart Plugin v3.4.0 for OpenCart v4.1.0.3
+## Payfast Gateway OpenCart module v3.4.0 for OpenCart v4.1.0.3
 
 This is the Payfast Gateway plugin for OpenCart. Please feel free to contact the Payfast support team at
 support@payfast.help should you require any assistance.
