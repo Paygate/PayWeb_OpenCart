@@ -28,7 +28,7 @@ class PaygateResponseHandler extends Controller
 	{
 		echo <<<HTML
         $htmlForm
-        <p style="text-align:center;">Redirecting you to Paygate...</p>
+        <p style="text-align:center;">Redirecting you to Payfast...</p>
         <script type="text/javascript">document.getElementById("paygate_payment_form").submit();</script>
 HTML;
 	}
@@ -184,7 +184,7 @@ HTML;
 				$resultsComment = 'Transaction Cancelled by User.';
 			}
 			if ($useRedirect) {
-				$resultsComment = 'Redirect response from Paygate with a status of ' . $statusDesc . $payMethodDesc;
+				$resultsComment = 'Redirect response from Payfast Gateway with a status of ' . $statusDesc . $payMethodDesc;
 			}
 		} else {
 			$orderStatusId = 1;
@@ -362,7 +362,7 @@ HTML;
 					$orderStatusId = $txnData['orderStatusId'];
 					$statusDesc = $txnData['statusDesc'];
 
-					$resultsComment = 'Notify response from Paygate with a status of ' . $statusDesc . $payMethodDesc;
+					$resultsComment = 'Notify response from Payfast Gateway with a status of ' . $statusDesc . $payMethodDesc;
 					$this->load->model(self::CHECKOUT_MODEL);
 					if ($statusDesc == 'approved') {
 						$this->cart->clear();

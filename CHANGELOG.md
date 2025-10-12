@@ -1,6 +1,13 @@
 # Changelog
 
-## [3.3.0](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.3.0)
+## [3.4.0](https://github.com/Payfast/opencart-gateway/releases/tag/v3.4.0)
+
+### Added
+- Updated Common Library to version 1.4.0.
+- Updated branding to use the Payfast by Network logo.
+- Revised configuration branding to Payfast Gateway.
+
+## [3.3.0](https://github.com/Payfast/opencart-gateway/releases/tag/v3.3.0)
 
 ### Fixed
 
@@ -13,7 +20,7 @@
 - Updated for PHP 8.2 compatibility and platform improvements.
 - Improved code quality and updated Payfast Common Library to v1.4.0.
 
-## [3.2.0](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.2.0)
+## [3.2.0](https://github.com/Payfast/opencart-gateway/releases/tag/v3.2.0)
 
 ### Added
 
@@ -21,7 +28,7 @@
 - Upgraded the standard Curl library to GuzzleHTTP.
 - Integrated with the Payfast Common Library.
 
-## [3.1.1](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.1.1)
+## [3.1.1](https://github.com/Payfast/opencart-gateway/releases/tag/v3.1.1)
 
 ### Added
 
@@ -31,7 +38,7 @@
 
 - OpenCart 4.0.2.3.
 
-## [3.1.0](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.1.0)
+## [3.1.0](https://github.com/Payfast/opencart-gateway/releases/tag/v3.1.0)
 
 ### Updated
 
@@ -41,7 +48,7 @@
 
 - OpenCart 4.0.2.2.
 
-## [3.0.8](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.0.8)
+## [3.0.8](https://github.com/Payfast/opencart-gateway/releases/tag/v3.0.8)
 
 ### Added
 
@@ -52,13 +59,13 @@
 - JSON returned in some themes.
 - IPN and session handling.
 
-## [3.0.7](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.0.7)
+## [3.0.7](https://github.com/Payfast/opencart-gateway/releases/tag/v3.0.7)
 
 ### Added
 
 - PayPal to payment types.
 
-## [3.0.6](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.0.6)
+## [3.0.6](https://github.com/Payfast/opencart-gateway/releases/tag/v3.0.6)
 
 ### Fixed
 
@@ -78,7 +85,7 @@
 
 - General bug fixes.
 
-## [3.0.5](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.0.5)
+## [3.0.5](https://github.com/Payfast/opencart-gateway/releases/tag/v3.0.5)
 
 ### Added
 
@@ -96,7 +103,7 @@
 
 - OpenCart 3.0.3.7.
 
-## [3.0.4](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.0.4)
+## [3.0.4](https://github.com/Payfast/opencart-gateway/releases/tag/v3.0.4)
 
 ### Added
 
@@ -112,7 +119,7 @@
 
 - Reliability by removing sessions in the redirect callback.
 
-## [3.0.3](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.0.3)
+## [3.0.3](https://github.com/Payfast/opencart-gateway/releases/tag/v3.0.3)
 
 ### Retained
 
@@ -122,7 +129,7 @@
 
 - OpenCart 3.0.3.2.
 
-## [3.0.2](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.0.2)
+## [3.0.2](https://github.com/Payfast/opencart-gateway/releases/tag/v3.0.2)
 
 ### Added
 
@@ -133,14 +140,14 @@
 - Order processing workflow.
 - Handling of email not set on checkout.
 
-## [3.0.1](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.0.1)
+## [3.0.1](https://github.com/Payfast/opencart-gateway/releases/tag/v3.0.1)
 
 ### Fixed
 
 - Minor bug with GeoZone.
 - Auto-install issue.
 
-## [3.0.0](https://github.com/Paygate/PayWeb_OpenCart/releases/tag/v3.0.0)
+## [3.0.0](https://github.com/Payfast/opencart-gateway/releases/tag/v3.0.0)
 
 ### Initial Release
 

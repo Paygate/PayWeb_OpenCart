@@ -9,5 +9,5 @@
  */
 
 // Text
-$_['text_title']            = 'Paygate';
-$_['text_paygate_checkout'] = 'Pay via Paygate';
+$_['text_title']            = 'Payfast';
+$_['text_paygate_checkout'] = 'Pay via Payfast';

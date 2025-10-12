@@ -260,7 +260,7 @@ QUERY;
 	{
 		echo <<<HTML
         $htmlForm
-        <p style="text-align:center;">Redirecting you to Paygate...</p>
+        <p style="text-align:center;">Redirecting you to Payfast...</p>
         <script type="text/javascript">document.getElementById("paygate_payment_form").submit();</script>
 HTML;
 	}
